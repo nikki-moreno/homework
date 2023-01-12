@@ -17,3 +17,7 @@
 ``` three backticks```
 
  
+12 September, 2023
+---------------------------------------
++ added Cygwin to my work laptop 
++ made two directories; ```Code``` and ```DATA```
