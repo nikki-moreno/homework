@@ -4,6 +4,13 @@
 + Journey to learn about biology through a computer!
 + maybe a log...
 
+12 September, 2023
+---------------------------------------
++ added Cygwin to my work laptop 
++ made two directories; ```Code``` and ```DATA```
++ git remembers me now! 
++ oh, I guess not...
+
 11 September, 2023
 ---------------------------------------
 + reconfiguring my computer to follow Unit 0 
@@ -15,11 +22,3 @@
 `one backtick`
 
 ``` three backticks```
-
- 
-12 September, 2023
----------------------------------------
-+ added Cygwin to my work laptop 
-+ made two directories; ```Code``` and ```DATA```
-+ git remembers me now! 
-+ oh, I guess not...
