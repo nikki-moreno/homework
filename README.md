@@ -22,3 +22,4 @@
 + added Cygwin to my work laptop 
 + made two directories; ```Code``` and ```DATA```
 + git remembers me now! 
++ oh, I guess not...
