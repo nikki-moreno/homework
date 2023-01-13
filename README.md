@@ -10,6 +10,7 @@
 + made two directories; ```Code``` and ```DATA```
 + git remembers me now! 
 + oh, I guess not...
++ got Cygwin on two computers now. I cannot be stopped. 
 
 11 September, 2023
 ---------------------------------------
