@@ -11,6 +11,7 @@
 + git remembers me now! 
 + oh, I guess not...
 + got Cygwin on two computers now. I cannot be stopped. 
++ Beginning Unit 1
 
 11 September, 2023
 ---------------------------------------
