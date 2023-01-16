@@ -4,11 +4,19 @@
 + Journey to learn about biology through a computer!
 + maybe a log...
 
+17 September, 2023
+--------------------------------------
+Make mention in class:
+[] GUI automatically set to not see .txt.gz files 
+[] alias for `rm` needs to be `rm="rm -i"` not `rm="rm -f"`
+
 16 September, 2023
 ---------------------------------------
 + REMEMBER TO `git pull`
 + continuing Unit 1 shenanigans
 + REMMEBER TO `git push` before switching subjects 
+Questions to ask Lilith:
+[] what scenerios would we want to know want to use the `sum` function?
 
 15 September, 2023
 ---------------------------------------
