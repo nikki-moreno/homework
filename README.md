@@ -1,6 +1,5 @@
 # homework
 
-# MCB 185 Log and Checklist #
 <div>
 
   
