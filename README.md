@@ -1,8 +1,22 @@
 # homework
-## MCB 185 Log and Checklists ##
-+ MCB 185 content
-+ Journey to learn about Biology through a computer!
-+ Updated with tasks completed
+
+<div style="color:white;
+           display:fill;
+           border-radius:5px;
+           background-color:#800080;
+           font-size:110%;
+           font-family:Verdana;
+           letter-spacing:0.5px">
+
+<p style="padding: 10px;
+              color:white;">
+
+              # MCB 185 Log and Checklist #
+              + MCB 185 content
+              + Journey to learn about Biology through a computer!
+              + Updated with completed tasks
+</p>
+</div>
 
 
 
