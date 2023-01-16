@@ -4,6 +4,16 @@
 + Journey to learn about biology through a computer!
 + maybe a log...
 
+16 September, 2023
+---------------------------------------
++ REMEMBER TO `git pull`
++ continuing Unit 1 shenanigans
++ REMMEBER TO `git push` before switching subjects 
+
+15 September, 2023
+---------------------------------------
++ worked with a classmate on installation of Cygwin
+
 12 September, 2023
 ---------------------------------------
 + added Cygwin to my work laptop 
