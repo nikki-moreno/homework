@@ -24,8 +24,10 @@ Make mention in class:
 + Finished Unit 1
 + Begin Unit 2
 ### Questions to ask Lilith: ###
-- [ ] What scenarios would we want to know want to use the `sum` function?
-- [ ] How to you seperate commit comments? Like if I wanted to update two things at the same time but with different comments?
+- [x] What scenarios would we want to know want to use the `sum` function?
+	+ If you've written a script and want to make the code better, using `sum` will show you if the new version of the script and the old version have the same outputs. This will confirm you've made the code better. 
+- [x] How to you seperate commit comments? Like if I wanted to update two things at the same time but with different comments?
+	+ `git commit -m <comment> <absolute_path_of_file>`
 ### Tutorials: ###
 - [x] 20variables.py 
 - [ ] 21math.py
