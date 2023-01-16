@@ -1,1 +1,2 @@
 Hello nikki, your home is /home/nikki, and your shell is /bin/bash
+
