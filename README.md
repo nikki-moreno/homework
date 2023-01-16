@@ -7,8 +7,8 @@
 17 September, 2023
 ===========================
 Make mention in class:
-- [] GUI automatically set to not see .txt.gz files 
-- [] alias for `rm` needs to be `rm="rm -i"` not `rm="rm -f"`
+- [ ] GUI automatically set to not see .txt.gz files 
+- [ ] alias for `rm` needs to be `rm="rm -i"` not `rm="rm -f"`
 
 16 September, 2023
 ============================
@@ -18,15 +18,15 @@ Make mention in class:
 + Finished Unit 1
 + Begin Unit 2
 ### Questions to ask Lilith: ###
-- [] what scenerios would we want to know want to use the `sum` function?
-- [] how to you seperate commit comments? Like if I wanted to update two things at the same time but with different comments?
+- [ ] what scenerios would we want to know want to use the `sum` function?
+- [ ] how to you seperate commit comments? Like if I wanted to update two things at the same time but with different comments?
 ### Tutorials: ###
 - [x] 20variables.py 
-- [] 21math.py
-- [] 22text.py  
-- [] 23loops.py
-- [] 24conditionals.py
-- [] 25loopcond.py
+- [ ] 21math.py
+- [ ] 22text.py  
+- [ ] 23loops.py
+- [ ] 24conditionals.py
+- [ ] 25loopcond.py
 
 
 
