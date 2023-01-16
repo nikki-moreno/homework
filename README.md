@@ -3,17 +3,12 @@
 # MCB 185 Log and Checklist #
 <div>
 
-              # MCB 185 Log and Checklist #
+  
               + MCB 185 content
               + Journey to learn about Biology through a computer!
               + Updated with completed tasks
 </div>
-<p>
-<p>
-<p>
-</p>
-</p>
-</p>
+
 
 17 September, 2023
 ===========================
@@ -21,12 +16,6 @@ Make mention in class:
 - [ ] GUI automatically set to not see .txt.gz files 
 - [ ] Alias for `rm` needs to be `rm="rm -i"` not `rm="rm -f"`
 
-<p>
-<p>
-<p>
-</p>
-</p>
-</p>
 
 16 September, 2023
 ============================
@@ -46,23 +35,11 @@ Make mention in class:
 - [ ] 24conditionals.py
 - [ ] 25loopcond.py
 
-<p>
-<p>
-<p>
-</p>
-</p>
-</p>
 
 15 September, 2023
 ============================
 + worked with a classmate on installation of Cygwin
 
-<p>
-<p>
-<p>
-</p>
-</p>
-</p>
 
 12 September, 2023
 ============================
@@ -72,13 +49,6 @@ Make mention in class:
 + oh, I guess not...
 + got Cygwin on two computers now. I cannot be stopped. 
 + Beginning Unit 1
-
-<p>
-	<p>
-		<p>
-		</p>
-	</p>
-</p>
 
 11 September, 2023
 ===========================
