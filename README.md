@@ -11,6 +11,7 @@
 19 January, 2023
 ==========================
 + Begin 21math.py 
++ check sum - `sum` - 
 
 ### Unit 2 Tutorials: ###
 - [x] 20variables.py 
@@ -25,8 +26,8 @@
 17 January, 2023
 ===========================
 Make mention in class:
-- [ ] GUI automatically set to not see .txt.gz files 
-- [ ] Alias for `rm` needs to be `rm="rm -i"` not `rm="rm -f"`
+- [x] GUI automatically set to not see .txt.gz files 
+- [x] Alias for `rm` needs to be `rm="rm -i"` not `rm="rm -f"`
 - <s> wasn't in class... </s>
 
 
