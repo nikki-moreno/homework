@@ -8,15 +8,29 @@
               + Updated with completed tasks
 </div>
 
+19 January, 2023
+==========================
++ Begin 21math.py 
 
-17 September, 2023
+### Unit 2 Tutorials: ###
+- [x] 20variables.py 
+- [ ] 21math.py
+- [ ] 22text.py  
+- [ ] 23loops.py
+- [ ] 24conditionals.py
+- [ ] 25loopcond.py
+
+
+
+17 January, 2023
 ===========================
 Make mention in class:
 - [ ] GUI automatically set to not see .txt.gz files 
 - [ ] Alias for `rm` needs to be `rm="rm -i"` not `rm="rm -f"`
+- <s> wasn't in class... </s>
 
 
-16 September, 2023
+16 January, 2023
 ============================
 + REMEMBER TO `git pull`
 + Continuing Unit 1 shenanigans
@@ -28,7 +42,7 @@ Make mention in class:
 	+ If you've written a script and want to make the code better, using `sum` will show you if the new version of the script and the old version have the same outputs. This will confirm you've made the code better. 
 - [x] How to you seperate commit comments? Like if I wanted to update two things at the same time but with different comments?
 	+ `git commit -m <comment> <absolute_path_of_file>`
-### Tutorials: ###
+### Unit 2 Tutorials: ###
 - [x] 20variables.py 
 - [ ] 21math.py
 - [ ] 22text.py  
@@ -37,12 +51,12 @@ Make mention in class:
 - [ ] 25loopcond.py
 
 
-15 September, 2023
+15 January, 2023
 ============================
 + worked with a classmate on installation of Cygwin
 
 
-12 September, 2023
+12 January, 2023
 ============================
 + added Cygwin to my work laptop 
 + made two directories; ```Code``` and ```DATA```
@@ -51,7 +65,7 @@ Make mention in class:
 + got Cygwin on two computers now. I cannot be stopped. 
 + Beginning Unit 1
 
-11 September, 2023
+11 January, 2023
 ===========================
 + reconfiguring my computer to follow Unit 0 
 + I've done this 3 times and it still feels like the first time
