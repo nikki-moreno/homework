@@ -8,6 +8,18 @@
               + Updated with completed tasks
 </div>
 
+22 January, 2023
+==========================
++ Continue 21math.py
+### Unit 2 Tutorials: ###
+- [x] 20variables.py 
+- [ ] 21math.py
+- [ ] 22text.py  
+- [ ] 23loops.py
+- [ ] 24conditionals.py
+- [ ] 25loopcond.py
+
+
 19 January, 2023
 ==========================
 + Begin 21math.py 
