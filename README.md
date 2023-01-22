@@ -10,11 +10,11 @@
 
 22 January, 2023
 ==========================
-+ Continue 21math.py
++ Start 22text.py
 + added all programs and tutorials to repo
 ### Unit 2 Tutorials: ###
 - [x] 20variables.py 
-- [ ] 21math.py
+- [x] 21math.py
 - [ ] 22text.py  
 - [ ] 23loops.py
 - [ ] 24conditionals.py

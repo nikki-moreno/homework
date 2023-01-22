@@ -2,14 +2,14 @@
 
 # Move the triple quotes downward to uncover each segment of code
 
-"""
 
+"""
 # The typical mathematical operators behave as expected
 # Try changing a and b
 # Make sure you try b = 0 so you can observe the divide by zero error
 
-a = 4
-b = 3
+a = 8
+b = 4
 
 add = a + b
 sub = a - b
@@ -41,7 +41,11 @@ i = i + 1
 i += 1    # common short-cut for the line above
 print(i)
 
+
 # For complex math operations, you may need the math library
+
+a = 8
+b = 4
 
 import math # import statements normally go at the top of a program
 
@@ -54,14 +58,15 @@ print(math.pi, math.floor(math.pi))
 print(math.e, math.ceil(math.e))
 print(math.inf, math.nan)
 
+"""
 # Stirling's approximation of the log factorial
 # Notice the use of \ to split a long line
 # Try experimenting with n, including non-integer values (cool!)
-
-n = 5
+import math
+n = 1
 lnfac = 0.5 * math.log(math.tau) + (n + 0.5) * math.log(n) \
 	- n + 1/(12 * n) - 1 / (360 * (n**3))
 print(n, math.e**lnfac)
 print(math.factorial(n))
 
-"""
+
