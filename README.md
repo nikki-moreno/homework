@@ -11,7 +11,13 @@
 24 January, 2023
 ==========================
 + covered `10variables.py` and `21math.py` in class
-
+### Unit 2 Tutorials: ###
+- [x] 20variables.py 
+- [x] 21math.py
+- [x] 22text.py  
+- [ ] 23loops.py
+- [ ] 24conditionals.py
+- [ ] 25loopcond.py
 
 22 January, 2023
 ==========================
