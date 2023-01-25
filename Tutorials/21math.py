@@ -8,7 +8,7 @@
 # Try changing a and b
 # Make sure you try b = 0 so you can observe the divide by zero error
 
-a = 8
+a = 1
 b = 4
 
 add = a + b
@@ -59,14 +59,16 @@ print(math.e, math.ceil(math.e))
 print(math.inf, math.nan)
 
 """
-# Stirling's approximation of the log factorial
+# Stirling's approximation of the log factorial (120)
+# Without doing the loop, it does the factorial
 # Notice the use of \ to split a long line
 # Try experimenting with n, including non-integer values (cool!)
 import math
-n = 1
+n = 8
 lnfac = 0.5 * math.log(math.tau) + (n + 0.5) * math.log(n) \
 	- n + 1/(12 * n) - 1 / (360 * (n**3))
-print(n, math.e**lnfac)
+print(n, lnfac) #math.e**lnfac)
 print(math.factorial(n))
+
 
 

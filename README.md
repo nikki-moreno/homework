@@ -8,6 +8,11 @@
               + Updated with completed tasks
 </div>
 
+24 January, 2023
+==========================
++ covered `10variables.py` and `21math.py` in class
+
+
 22 January, 2023
 ==========================
 + Start 22text.py

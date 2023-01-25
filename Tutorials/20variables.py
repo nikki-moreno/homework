@@ -20,7 +20,6 @@ print(s)
 # Move the triple quotes downward to uncover each line of code
 # That's how all the rest of the tutorial programs work
 
-"""
 
 # You can replace the contents of a variable easily
 
@@ -65,4 +64,4 @@ v = None
 print(v)
 print(type(v))
 
-"""
+
