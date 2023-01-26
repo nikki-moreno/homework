@@ -1,10 +1,10 @@
 # 23loops.py
 
 import math
-
+"""
 # Move the triple quotes downward to uncover each segment of code
 
-"""
+
 
 # The 'for' loop is the most common loop construct you will use
 # Note the indentation of the print(i) statement below
@@ -37,6 +37,7 @@ print('- end of loop 4')
 
 # You can also iterate over the characters of a string with "in"
 # Most loops will use range() or in
+"""
 
 s = 'ACGT'
 for c in s:
@@ -46,7 +47,7 @@ print('- end of loop 5')
 # An alternate way to do the same thing
 # It's absolutely critical you understand the code above and below
 # They do similar things with different strategies
-
+"""
 for i in range(len(s)):
 	print(i, s[i])
 print('- end of loop 6')
@@ -59,5 +60,5 @@ for c in s:
 	print(i, c)
 	i += 1
 print('- end of loop 7')
-
 """
+
