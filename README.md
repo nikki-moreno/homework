@@ -8,6 +8,19 @@
               + Updated with completed tasks
 </div>
 
+25 January, 2023
+==========================
++ slicing
+	- slice operator is the colon in [:] 
+### Unit 2 Tutorials: ###
+- [x] 20variables.py 
+- [x] 21math.py
+- [x] 22text.py  
+- [ ] 23loops.py
+- [ ] 24conditionals.py
+- [ ] 25loopcond.py
+
+
 24 January, 2023
 ==========================
 + covered `10variables.py` and `21math.py` in class
