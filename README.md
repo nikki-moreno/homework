@@ -16,8 +16,8 @@
 - [x] 21math.py
 - [x] 22text.py  
 - [x] 23loops.py
-- [ ] 24conditionals.py
-- [ ] 25loopcond.py
+- [x] 24conditionals.py
+- [x] 25loopcond.py
 
 
 25 January, 2023
