@@ -6,6 +6,7 @@
               + MCB 185 content
               + Journey to learn about Biology through a computer!
               + Updated with completed tasks
+              + Constantly being compassionate with my journey
 </div>
 1 February, 2023
 ==========================
