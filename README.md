@@ -7,6 +7,16 @@
               + Journey to learn about Biology through a computer!
               + Updated with completed tasks
 </div>
+1 February, 2023
+==========================
+### Unit 2 Tutorials: ###
+- [x] 20variables.py 
+- [x] 21math.py
+- [x] 22text.py  
+- [x] 23loops.py
+- [ ] 24conditionals.py
+- [ ] 25loopcond.py
+
 
 25 January, 2023
 ==========================
