@@ -9,6 +9,21 @@
               + Constantly being compassionate with my journey
 </div>
 
+2 February, 2023
+=========================
+### Unit 2 Programs: ###
+- [ ] 20loop.py
+- [ ] 21codons.py
+- [ ] 22sumfac.py
+- [ ] 23fizzbuzz.py
+- [ ] 24gc.py
+- [ ] 25atseq.py
+- [ ] 26anti.py
+- [ ] 27frame.py
+- [ ] 28aapairs.py
+- [ ] 29gcwin.py
+
+
 1 February, 2023
 ==========================
 ### Unit 2 Tutorials: ###
