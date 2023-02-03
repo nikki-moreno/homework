@@ -12,8 +12,8 @@
 2 February, 2023
 =========================
 ### Unit 2 Programs: ###
-- [ ] 20loop.py
-- [ ] 21codons.py
+- [x] 20loop.py
+- [/] 21codons.py
 - [ ] 22sumfac.py
 - [ ] 23fizzbuzz.py
 - [ ] 24gc.py
