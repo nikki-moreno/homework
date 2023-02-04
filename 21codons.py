@@ -1,16 +1,19 @@
 # 21codons.py
 
-# Print out all the codons for the sequence below in reading frame 1
+# Nikki Moreno
+# 4 February 2023
+# MCB 185
 
+### Purpose ###
+# Print out all the codons for the sequence below in reading frame 1
 # Hint: use the slice operator
 
 dna = 'ATAGCGAATATCTCTCATGAGAGGGAA'
 
-for frame in range(3):      # for a variable in a specific range of integers
-    for position in range(frame, len(dna) -2, 3):
-        codon = dna[position:position+3]
-        print(codon)
-    print()
+for ORF_1 in range(0, len(dna), 3): # establish ORF and step length
+    codon = dna[ORF_1: ORF_1 + 3]   # codon defined by slice
+    print(codon)
+print()                             # new line after every step
 
 """
 python3 21codons.py
