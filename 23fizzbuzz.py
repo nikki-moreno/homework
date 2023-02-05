@@ -1,11 +1,21 @@
 # 23fizzbuzz.py
 
+# Nikki Moreno
+# 4 February 2023
+# MCB 185
+
+## Purpose ##
 # Write a program that prints the numbers from 1 to 100
 # For multiples of 3 print “Fizz” instead of the number
 # For the multiples of 5 print “Buzz”
 # For numbers which are multiples of both 3 and 5 print “FizzBuzz”
-
 # Note: this is a common interview question
+
+for i in range(1,101):
+	if	 i%3 == 0 and i%5 == 0: print("FizzBuzz", end="\n") # and statement 1st
+	elif i%3 == 0: print("Fizz", end="\n")					# then others
+	elif i%5 == 0: print("Buzz", end="\n")
+	else:		   print(i)									# neither? print i
 
 
 """
