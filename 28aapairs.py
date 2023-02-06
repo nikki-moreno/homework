@@ -1,13 +1,67 @@
 # 28aapairs.py
 
+# Nikki Moreno
+# 5 February 2023
+# MCB 185
+
+## Purpose ##
 # Print out all the unique pairwise amino acid combinations
 # AC is the same as CA
 # Skip AA, CC etc.
 # Also print out how many combinations there are
-
 # Hint: if you get stuck for more than 10 minutes, get help
 
+ # set variable(s)
+aa = 'ACDEFGHIKLMNPQRSTVWY'
 
+
+
+
+'''
+# this prints all possible combinations of amino acids
+for i in aa:
+	for j in aa:
+		print(i,j)
+'''
+
+'''
+# this prints all possible combinations of amino acids, with major diagonal
+for i in range(0, len(aa)):
+	for j in range(i, len(aa)):
+		print(aa[i], aa[j])
+'''
+
+# this prints all unique amino acid combinations instead of unique positions
+n = 0
+for i in range(0, len(aa)):
+	for j in range(i + 1, len(aa)):
+		n = n + 1
+		print(aa[i], aa[j])
+print(n)
+
+
+'''
+# this prints all possible combinations of positions, with major diagonal
+for i in range(0,len(aa)):
+	for j in range(i, len(aa)):
+		print(i,j)
+'''
+
+
+'''
+# this prints unique positions instead of unique amino acids (no major diagonal)
+for i in range(0, len(aa)):
+	for j in range(i+1, len(aa)):
+		print(i, j)
+'''
+
+
+'''
+ # for j in range ( i+1, 4) without the major diagonal; 
+ # not allowed to compare ny to ny
+ # for j in range(i, 4) with major diagonal
+
+'''
 """
 python3 28aapairs.py
 A C
