@@ -11,14 +11,22 @@
 
 dna = 'ATGGCCTTT'
 
-frame = 0
-for position in range(len(dna)):
-	for nucleotides in range(len(dna)):
-		nucleotides = dna[position]
-		while (True):
-			frame = frame + 1
-			if frame > 2: break 
-	print (position, frame, nucleotides)
+# nested
+for i in range(0, len(dna), 3):
+
+	for j in range(3):
+		n = i + j
+		print(n, j, dna[n])
+
+
+"""
+#non-nested
+for i in range(len(dna)):
+	print (i, i%3, dna[i])
+"""
+
+
+
 
 """
 python3 27frame.py
