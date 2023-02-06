@@ -21,7 +21,7 @@ w = 11
 
 
 
-# notes
+# notes #
 # first loop, moves the beginning position of the window
 # second loop, once you have a window, it needs to count the letters inside it
 '''
