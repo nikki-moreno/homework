@@ -1,10 +1,14 @@
 # 29gcwin.py
 
+# Nikki Moreno
+# 5 February 2023
+# MCB 185
+
+## Purpose ##
 # Write a program that computes the GC fraction of a DNA sequence in windows
 # Window size is 11 nt
 # Output with 4 significant figures
 # Try this with nested loops first
-
 # Variation: try programming this without nested loops
 # Instead, count only the first window
 # Then 'move' the window by adding 1 letter on one side
@@ -13,6 +17,28 @@
 
 seq = 'ACGACGCAGGAGGAGAGTTTCAGAGATCACGAATACATCCATATTACCCAGAGAGAG'
 w = 11
+
+
+
+
+# notes
+# first loop, moves the beginning position of the window
+# second loop, once you have a window, it needs to count the letters inside it
+'''
+for i in range(len(seq) - w + 1):
+	win = seq[i:i+w]
+	for nt in win:
+		if nt == 'G' or nt == 'C': .... 
+	print(win)
+'''
+# i keeps going to the end, make sure you can stop 
+
+
+
+
+
+
+
 
 
 """
