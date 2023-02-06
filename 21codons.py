@@ -11,8 +11,8 @@
 dna = 'ATAGCGAATATCTCTCATGAGAGGGAA'
 
 for ORF_1 in range(0, len(dna), 3): # establish ORF and step length
-    codon = dna[ORF_1: ORF_1 + 3]   # codon defined by slice
-    print(codon)
+	codon = dna[ORF_1: ORF_1 + 3]   # codon defined by slice
+	print(codon)
 print()                             # new line after every step
 
 """
