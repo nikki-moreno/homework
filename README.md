@@ -12,7 +12,7 @@
 ========================
 ### Unit 2 Tutorials: ###
 - [x] 30methods.py
-- [ ] 31tuples.py
+- [x] 31tuples.py
 - [ ] 32lists.py
 - [ ] 33iteration.py
 - [ ] 34listcomp.py
