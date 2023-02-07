@@ -15,17 +15,50 @@
 # And subtracting 1 letter from the other side
 # Consider the pros/cons of this algorithm vs. nested loops
 
-# sequence, window size and initial variables
+
+
+
+## sequence, window size and initial variables ##
+
 seq = 'ACGACGCAGGAGGAGAGTTTCAGAGATCACGAATACATCCATATTACCCAGAGAGAG'
 w = 11
-gc = 0
-count = 0
-for i in range (len(seq) -w +1): # length of the sequence minus the window
-	count = count + 1
-	window = seq[i:i+w]			 	 # window is the length 11 
-	for nt in window:  			 		# for the nucleotides in the window
-		if nt == 'G' or nt == 'C': gc += 1 # if the nucleotide = G or C, add 1
+# count = 0 					count will start at 1 after the first loops
+# count = i 					i is not defined 
+# gc = 0 						adds all of the gc through every loops ( ~ 22.1)   
+
+
+## making the window and counting GCs with nested loops ##
+
+for i in range(len(seq) -w +1): # length of the sequence minuse the window 	 
+	count = i
+	gc = 0						 # adds up only gc through a single loop 
+	window = seq[i:i+w]			 # window length = 11
+	for nt in window:  		 	 # for the nucleotides in the window
+		if nt == 'G' or nt == 'C': gc = gc + 1
 	print(f'{count} {window} {gc/len(window):.4f}')
+
+'''
+## making the window and counting GCs without nested loops ##
+
+for i in range(len(seq) -w +1):
+	count = i
+	gc = 0
+	window = seq[i:i+w]
+	if i == 'G' or i == 'C': gc = gc + 1
+
+	print(f'{count} {window} {gc/len(window):.4f}')
+# still working on this one...
+
+'''
+
+
+
+
+
+
+
+
+
 
 
 # notes #
