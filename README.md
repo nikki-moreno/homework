@@ -8,20 +8,30 @@
               + Updated with completed tasks
               + Constantly being compassionate with my journey
 </div>
+7 February, 2023
+========================
+### Unit 2 Tutorials: ###
+- [x] 30methods.py
+- [ ] 31tuples.py
+- [ ] 32lists.py
+- [ ] 33iteration.py
+- [ ] 34listcomp.py
+- [ ] 35sysargv.py
+- [ ] 36errors.py
 
-2 February, 2023
+3,4,5 February, 2023
 =========================
 ### Unit 2 Programs: ###
 - [x] 20loop.py
-- [/] 21codons.py
-- [ ] 22sumfac.py
-- [ ] 23fizzbuzz.py
-- [ ] 24gc.py
-- [ ] 25atseq.py
-- [ ] 26anti.py
-- [ ] 27frame.py
-- [ ] 28aapairs.py
-- [ ] 29gcwin.py
+- [x] 21codons.py
+- [x] 22sumfac.py
+- [x] 23fizzbuzz.py
+- [x] 24gc.py
+- [x] 25atseq.py
+- [x] 26anti.py
+- [x] 27frame.py
+- [x] 28aapairs.py
+- [x] 29gcwin.py
 
 
 1 February, 2023
