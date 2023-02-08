@@ -22,14 +22,17 @@ Questions to ask:
 
 7 February, 2023
 ========================
-### Unit 2 Tutorials: ###
+### Unit 3 Tutorials: ###
 - [x] 30methods.py
 - [x] 31tuples.py
 - [x] 32lists.py
 - [x] 33iteration.py
 - [x] 34listcomp.py
 - [x] 35sysargv.py
-- [ ] 36errors.py
+- [x] 36errors.py
+
+### Unit 3 Programs: ###
+
 
 3,4,5 February, 2023
 =========================
