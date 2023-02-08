@@ -7,6 +7,19 @@
 
 # Note: you are not allowed to import any library except sys
 
+import sys 
+
+
+values = sys.argv[1:]
+minimum = min(sys.argv[1:])
+maximum = max(sys.argv[1:])
+
+
+print('Count: ', len(sys.argv[1:]))
+print('Minimum:', float(minimum))
+print('Maximum:', float(maximum))
+
+
 
 """
 python3 30stats.py 3 1 4 1 5
@@ -17,3 +30,8 @@ Mean: 2.800
 Std. dev: 1.600
 Median 3.000
 """
+
+
+
+# values = sys.argv[1:] 	#didn't work 
+# summation = sum(values) 	#didn't work 
