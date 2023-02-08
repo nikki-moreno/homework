@@ -14,7 +14,8 @@
 Questions to ask:
 - [ ] Is there  way to sort a list backwards using :-1? 
 - [ ] Difference between .find for tuples and .index for lists
-    - .find for tuples looks for a substring within a string and .index looks for a string within a list? 
+    - .find for tuples looks for a substring within a string and .index looks for a string within a list?
+- [ ] The purpose for 35sysargv.py 	
 
 
 
@@ -26,8 +27,8 @@ Questions to ask:
 - [x] 31tuples.py
 - [x] 32lists.py
 - [x] 33iteration.py
-- [ ] 34listcomp.py
-- [ ] 35sysargv.py
+- [x] 34listcomp.py
+- [x] 35sysargv.py
 - [ ] 36errors.py
 
 3,4,5 February, 2023
