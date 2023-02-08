@@ -32,6 +32,10 @@ Questions to ask:
 - [x] 36errors.py
 
 ### Unit 3 Programs: ###
+- [ ] 30stats.py
+- [ ] 31entropy.py
+- [ ] 32xcoverage.py
+- [ ] 33birthday.py
 
 
 3,4,5 February, 2023
