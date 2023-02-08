@@ -8,6 +8,16 @@
               + Updated with completed tasks
               + Constantly being compassionate with my journey
 </div>
+9 February, 2023
+========================
+Questions to ask:
+- [ ] Is there  way to sort a list backwards using :-1? 
+- [ ] Difference between .find for tuples and .index for lists
+- .find for tuples looks for a substring within a string and .index looks for a string within a list? 
+
+
+
+
 7 February, 2023
 ========================
 ### Unit 2 Tutorials: ###
