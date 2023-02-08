@@ -24,8 +24,8 @@ Questions to ask:
 ### Unit 2 Tutorials: ###
 - [x] 30methods.py
 - [x] 31tuples.py
-- [ ] 32lists.py
-- [ ] 33iteration.py
+- [x] 32lists.py
+- [x] 33iteration.py
 - [ ] 34listcomp.py
 - [ ] 35sysargv.py
 - [ ] 36errors.py
