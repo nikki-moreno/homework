@@ -14,7 +14,7 @@
 Questions to ask:
 - [ ] Is there  way to sort a list backwards using :-1? 
 - [ ] Difference between .find for tuples and .index for lists
-- .find for tuples looks for a substring within a string and .index looks for a string within a list? 
+    - .find for tuples looks for a substring within a string and .index looks for a string within a list? 
 
 
 
