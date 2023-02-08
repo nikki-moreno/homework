@@ -8,6 +8,7 @@
               + Updated with completed tasks
               + Constantly being compassionate with my journey
 </div>
+
 9 February, 2023
 ========================
 Questions to ask:
