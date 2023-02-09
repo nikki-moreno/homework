@@ -17,6 +17,31 @@
 
 # Imports, variables and initials
 import sys 	
+
+nums = []
+for val in sys.argv[1:]:
+	nums.append(float(val))
+nums.sort()
+print(nums)
+	
+# Count, Minimum, Maximum
+length = len(nums)
+print('Count: ', length)	
+print('Minimum: ', nums[0])		
+print('Maximum: ', nums[-1])
+
+# Mean, Std. Dev, Median
+
+print('Mean: ', sum(nums)/len(nums))
+
+
+if length % 2 == 0:							# if odd, find mid; [i] and [i-1]
+	median = length//2
+	else:
+print('Median: ', length//2])
+
+											
+"""
 minimum = min(sys.argv[1:])
 maximum = max(sys.argv[1:])
 
@@ -30,7 +55,7 @@ print('Maximum:', float(maximum))
 values = list(sys.argv[1:])
 print(sum(int(values)))
 
-
+"""
 
 
 
