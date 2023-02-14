@@ -22,7 +22,14 @@ Tuesday, 14 February, 2023
     - `mcb185.py` allows you to read FASTA files
     - everything in `mcb185.py` is something we have seen before 
 
-### Unit 3 Programs: ###
+### To-Do List ###
+- [ ] Review 30methods.py
+- [ ] Review 31tuples.py
+- [ ] Review 32lists.py
+- [ ] Review 33iteration.py
+- [ ] Review 34listcomp.py
+- [ ] Review 35sysargv.py
+- [ ] Review 36errors.py
 - [ ] 30stats.py
 - [ ] 31entropy.py
 - [ ] 32xcoverage.py
