@@ -21,6 +21,7 @@ Tuesday, 14 February, 2023
     - to import another piece of python, use `import`
     - `mcb185.py` allows you to read FASTA files
     - everything in `mcb185.py` is something we have seen before 
+- test 
 
 
 
