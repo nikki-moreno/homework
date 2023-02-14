@@ -9,13 +9,27 @@
               + Constantly being compassionate with my journey
 </div>
 
+Tuesday, 14 February, 2023
+=======================
+### Notes to put on scratch ###
+- 43parameters.py is lists and loops
+    - pow - like squares but you choose what power you want 
+    - 'internal guts' of how functions are made
+- 44libraries.py is how libraries are made
+    - echo $HOME - tells you where your home directy is
+    - file called os.py and a function in it called getenv
+    - to import another piece of python, use `import`
+    - `mcb185.py` allows you to read FASTA files
+    - everything in `mcb185.py` is something we have seen before 
+
+
+
 9 February, 2023
 ========================
 Questions to ask:
 - [ ] Is there  way to sort a list backwards using :-1? 
-- [ ] Difference between .find for tuples and .index for lists
-    - .find for tuples looks for a substring within a string and .index looks for a string within a list?
-- [ ] The purpose for 35sysargv.py 	
+- [x] Difference between .find for tuples and .index for lists
+    - .find for tuples looks for a substring within a string and .index looks for a string within a list? `yes!`
 
 
 
