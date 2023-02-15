@@ -1,7 +1,7 @@
 # 31entropy.py
 
 # Nikki Moreno
-# 8 February 2023
+# 8 February 2023 & 14 Ferbuary 2023
 # MCB 185
 
 ## Purpose ##
@@ -18,14 +18,33 @@
 
 import sys
 import math
-
+"""
 # sum to 1.0 by storing values in a new list
-list = []
+vals = []
+for i in sys.argv[1:]:
+	vals.append(float(i))
+	if sum(vals) == 1: 
+		I = math.log2(vals[i]) + I
+		print(I)
+else:			   print('Error: Probabilities do not sum to 1')
 
+vals.sort()
+"""
+
+# iteration
+vals = 0
+for i in range(len(sys.argv[:1])):
+	vals = vals + sys.argv[i]
+print(vals)
+
+
+
+
+"""
 i = 0
 i = sys.argv([1:]) 
 H = -sum(pi * log(pi))
-
+"""
 
 
 

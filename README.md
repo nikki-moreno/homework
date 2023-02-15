@@ -30,7 +30,7 @@ Tuesday, 14 February, 2023
 - [ ] Review 34listcomp.py
 - [ ] Review 35sysargv.py
 - [ ] Review 36errors.py
-- [ ] 30stats.py
+- [x] 30stats.py
 - [ ] 31entropy.py
 - [ ] 32xcoverage.py
 - [ ] 33birthday.py
