@@ -23,9 +23,9 @@ Tuesday, 14 February, 2023
     - everything in `mcb185.py` is something we have seen before 
 
 ### To-Do List ###
-- [ ] Review 30methods.py
-- [ ] Review 31tuples.py
-- [ ] Review 32lists.py
+- [x] Review 30methods.py
+- [x] Review 31tuples.py
+- [x] Review 32lists.py
 - [ ] Review 33iteration.py
 - [ ] Review 34listcomp.py
 - [ ] Review 35sysargv.py
