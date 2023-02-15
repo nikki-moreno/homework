@@ -1,7 +1,7 @@
 # 30stats.py
 
 # Nikki Moreno
-# 8 February 2023
+# 8 February 2023 - 14 February 2023
 # MCB 185
 
 ## Purpose ##
@@ -11,72 +11,50 @@
 # Note: you are not allowed to import any library except sys
 
 
+# Import, container. desired input, and sort
+import sys 
+nums = []								# list			 
+for val in sys.argv[1:]:				# every desired val will be appended into numbs
+	nums.append(float(val))				# val type will go from str --> float
+nums.sort()								# sorting for later; work smarter not harder!	
 
-
-
-
-# Imports, variables and initials
-import sys 	
-
-nums = []
-for val in sys.argv[1:]:
-	nums.append(float(val))
-nums.sort()
-print(nums)
+#print(nums)							- Note: is the list capturing what you want? 
 	
+
+
 # Count, Minimum, Maximum
 length = len(nums)
-print('Count: ', length)	
-print('Minimum: ', nums[0])		
-print('Maximum: ', nums[-1])
-
-# Mean, Std. Dev, Median
-
-print('Mean: ', sum(nums)/len(nums))
-
-
-if length % 2 == 0:							# if odd, find mid; [i] and [i-1]
-	median = length//2
-	else:
-print('Median: ', length//2])
-
-											
-"""
-minimum = min(sys.argv[1:])
-maximum = max(sys.argv[1:])
-
-
-# Count, Minimum, Maximum
-print('Count: ', len(sys.argv[1:]))
-print('Minimum:', float(minimum))
-print('Maximum:', float(maximum))
-
-# Sum, Std. Dev, Median
-values = list(sys.argv[1:])
-print(sum(int(values)))
-
-"""
+print('Count: ', length)				# length of the list 
+print('Minimum: ', nums[0])				# position 0 of the sorted list 
+print('Maximum: ', nums[-1])			# count backwards from the sorted list 
 
 
 
-### Notes ###
-# mean = sum of (sys.argv[1:]) divide by # of positions... len(sys.argv[1:])
-# std. dev 
-# - numerator = [(i - mean)**2 + ((i + 1) - mean)**2 + .... ((i + n) - mean)**2]
-# 	- maybe use data.append() ???
-# - denominator = range(len(sys.argv[1:])
-# - numerator / denominator 	
-# median 
-# 		- sorting sys.argv([1:]) from least to greatest = 1, 1, 3, 4, 5
-#		- HOW DO I PICK THE MIDDLE??? 
+# Mean
+avg = sum(nums)/length	
+print('Mean: ', f'{avg:.3f}')	
 
 
 
 
-# Trying to use sum but it won't with strings 
-# values = sys.argv[1:] 	#didn't work 
-# summation = sum(values) 	#didn't work 
+# Variance --> Standard Deviation
+var = 0
+for i in nums:
+	var = var + ((i - avg) ** 2)
+stddv = (var/length)** 0.5
+print('Std. dev:', f'{stddv:.3f}')
 
+
+
+
+# Median if even or odd, respectively 
+if length % 2 == 0:							# if even, find mid
+	mid = length/2							# mid returns a position
+	median = (nums[mid] + nums[mid-1])/2	# median returns an index
+else:
+	mid = int((length/2) - 0.5)				# if odd, find mid position and round down
+	median = nums[mid]						# median returns an index
+print('Median:', f'{median:.3f}')
 
 
 """
