@@ -6,25 +6,25 @@
 
 ## Purpose ##
 # Write a program that predicts which proteins in a proteome are transmembrane
-
 # Transmembrane proteins are characterized by having
 #    1. a hydrophobic signal peptide near the N-terminus
 #    2. other hydrophobic regions to cross the plasma membrane
-
 # Both the signal peptide and the transmembrane domains are alpha-helices
 # Therefore, they do not contain Proline
-
 # Hydrophobicity can be measured by Kyte-Dolittle
 #	https://en.wikipedia.org/wiki/Hydrophilicity_plot
-
 # For our purposes:
 #	Signal peptide is 8 aa long, KD > 2.5, first 30 aa
 #	Hydrophobic region is 11 aa long, KD > 2.0, after 30 aa
-
 # Hint: copy mcb185.py to your homework repo and import that
 # Hint: create a function for KD calculation
 # Hint: create a function for hydrophobic alpha-helix
 # Hint: use the same function for both signal peptide and transmembrane
+
+
+
+
+
 
 ## Notes ##
 # Which proteins are trans membrane proteins
@@ -40,6 +40,11 @@
 #	if p in window, then no 
 #	make this a return true or false 
 # If it's this and it's this, print the name 
+
+# write a function that goes through everything 
+# write a function for hydrophobic alpha helix
+
+
 
 
 
