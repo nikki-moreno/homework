@@ -1,5 +1,10 @@
 # 41transmembrane.py
 
+# Nikki Moreno
+# MCB 185
+# 16 February 2023
+
+## Purpose ##
 # Write a program that predicts which proteins in a proteome are transmembrane
 
 # Transmembrane proteins are characterized by having
@@ -20,6 +25,25 @@
 # Hint: create a function for KD calculation
 # Hint: create a function for hydrophobic alpha-helix
 # Hint: use the same function for both signal peptide and transmembrane
+
+## Notes ##
+# Which proteins are trans membrane proteins
+# 	- look for hydrophobic sequence in the beginning and anywhere beyond 
+#	- hydrophathy - Leucine is high
+#	- what's the average hydrophobicity across the protein 
+# move the window
+# does it have prolines in it? it's not an alpha helix
+# function - calculating kd 
+# hydrophobic alpha helix function - checks if it's above some value or if it has a p in it 
+# for i in range len(protein) -w) 
+# 	win = seq( i + iw)?
+#	if p in window, then no 
+#	make this a return true or false 
+# If it's this and it's this, print the name 
+
+
+
+
 
 
 """
