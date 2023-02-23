@@ -9,6 +9,24 @@
               + Constantly being compassionate with my journey
 </div>
 
+Thursday, 23 February 2023
+======================
+### Notes to put on scratch ###
+- du -h -d 1
+- df -h 
+- htop = task manager
+-d = delimiter 
+- gunzip -c GCF_000005845.2_ASM584v2_genomic.gff.gz | grep CDS | cut -f 1,2,3,4,5
+	- f = field 
+	- c = standard output
+- run a program that is pretty and works as its supposed to! (50dust) 
+	- has interface we want
+	- ran corretly
+	- made efficiently  
+
+
+
+
 Tuesday, 14 February, 2023
 =======================
 ### Notes to put on scratch ###
