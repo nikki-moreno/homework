@@ -8,35 +8,23 @@
 # Write a Shannon entropy calculator: H = -sum(pi * log(pi))
 # The values should come from the command line
 # Store the values in a new list
-
 # Note: make sure the command line values contain numbers
 # Note: make sure the probabilities sum to 1.0
 # Note: import math and use the math.log2()
-
 # Hint: try breaking your program with erroneous input
 
-
+ 
 import sys
 import math
-"""
-# sum to 1.0 by storing values in a new list
-vals = []
-for i in sys.argv[1:]:
-	vals.append(float(i))
-	if sum(vals) == 1: 
-		I = math.log2(vals[i]) + I
-		print(I)
-else:			   print('Error: Probabilities do not sum to 1')
 
-vals.sort()
-"""
 
 # iteration
-vals = 0
-for i in range(len(sys.argv[:1])):
-	vals = vals + sys.argv[i]
+vals = []					# Empty list.
+for i in sys.argv[1:]:		# For positions in system argument,
+	vals.append(float(i)) 	# add the positions past [:1] to the empty list.	
+	if sum(vals) == 1:		# Check to see if the list sum = 1
+		I = -math.log2(vals[i]) + I		#mathisclose (line 25)
 print(vals)
-
 
 
 
@@ -45,13 +33,6 @@ i = 0
 i = sys.argv([1:]) 
 H = -sum(pi * log(pi))
 """
-
-
-
-
-
-
-
 
 
 """
