@@ -8,6 +8,12 @@
               + Updated with completed tasks
               + Constantly being compassionate with my journey
 </div>
+Tuesday, 7 March, 2023
+=====================
+- JSON (JavaScript Object Notation)
+    - everything in a dictionary is tag;value 
+
+
 
 Thursday, 23 February 2023
 ======================
